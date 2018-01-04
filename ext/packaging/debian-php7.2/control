@@ -16,7 +16,7 @@ Depends: ${misc:Depends},
          ${php:Depends},
          ${shlibs:Depends},
          cassandra-cpp-driver (>= 2.7.0)
-Provides: ${php:Provides}
+Provides: ${php:Provides}, php5-cassandra
 Description: Modern, feature-rich and highly tunable PHP client library for
  Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively
  Cassandra's binary protocol and Cassandra Query Language v3.
